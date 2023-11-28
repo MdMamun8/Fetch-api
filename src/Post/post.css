@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,700;1,400&family=Oswald:wght@500&display=swap');
+.all-api {
+    border: 2px solid wheat;
+    padding: 1rem;
+    text-align: center;
+    transition: 0.5s all ease;
+    border-radius: 5px;
+      background: linear-gradient(90deg, #fcff9e 0%, #c67700 100%);
+}
+.all-api:hover {
+    transform: scale(1.03);
+    border: 2px solid white;
+
+}
+.single-post span {
+    color: #808000; 
+}
+.single-post h1, .single-post h3 {
+    background: linear-gradient(90deg, #e3ffe7 0%, #d9e7ff 100%);
+    font-family: 'Oswald', sans-serif;
+    ;
+    font-weight: 500px;
+    
+}

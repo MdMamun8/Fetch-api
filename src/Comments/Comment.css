@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,700;1,400&family=Oswald:wght@500&display=swap');
+.comments {
+    border: 2px solid #4b6cb7;
+    padding: 1rem;
+    text-align: center;
+    transition: 0.6s all ease;
+    border-radius: 5px;
+    background: linear-gradient(90deg, #4b6cb7 0%, #182848 100%);
+}
+.comments:hover {
+    transform: scale(1.05);
+    border: 2px solid white;
+}
+.comment span {
+    color: #182848; 
+}
+.comment h1, .comment p {
+    background: linear-gradient(90deg, #FDBB2D 0%, #3A1C71 100%);
+    /* background: linear-gradient(90deg, #e3ffe7 0%, #d9e7ff 100%); */
+    font-family: 'Oswald', sans-serif;
+    ;
+    font-weight: 500px;
+}
